@@ -12,47 +12,23 @@
 		03035A0B1F458E8B00961E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03035A091F458E8B00961E46 /* Main.storyboard */; };
 		03035A0D1F458E8B00961E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0C1F458E8B00961E46 /* Assets.xcassets */; };
 		03035A101F458E8B00961E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0E1F458E8B00961E46 /* LaunchScreen.storyboard */; };
-		034338341F45CCD200782A2F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343382F1F45CCD200782A2F /* RxBlocking.framework */; };
-		034338351F45CCD200782A2F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343382D1F45CCD200782A2F /* RxCocoa.framework */; };
-		034338361F45CCD200782A2F /* RxCocoaRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034338311F45CCD200782A2F /* RxCocoaRuntime.framework */; };
-		034338371F45CCD200782A2F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034338331F45CCD200782A2F /* RxSwift.framework */; };
+		11DF087620326F470046A28E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF087520326F470046A28E /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0343382C1F45CCD200782A2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "RxSwift::RxCocoa::Product";
-			remoteInfo = RxCocoa;
-		};
-		0343382E1F45CCD200782A2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "RxSwift::RxBlocking::Product";
-			remoteInfo = RxBlocking;
-		};
-		034338301F45CCD200782A2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "RxSwift::RxCocoaRuntime::Product";
-			remoteInfo = RxCocoaRuntime;
-		};
-		034338321F45CCD200782A2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = "RxSwift::RxSwift::Product";
-			remoteInfo = RxSwift;
-		};
 		0347D9EB1F45C9EA0004D700 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = "Dependencies::Dependencies::Product";
 			remoteInfo = Dependencies;
+		};
+		11DF087420326F470046A28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "Alamofire::Alamofire::Product";
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,10 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034338341F45CCD200782A2F /* RxBlocking.framework in Frameworks */,
-				034338351F45CCD200782A2F /* RxCocoa.framework in Frameworks */,
-				034338361F45CCD200782A2F /* RxCocoaRuntime.framework in Frameworks */,
-				034338371F45CCD200782A2F /* RxSwift.framework in Frameworks */,
+				11DF087620326F470046A28E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +61,7 @@
 				0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */,
 				03035A041F458E8B00961E46 /* SwiftPackagesWithiOS */,
 				03035A031F458E8B00961E46 /* Products */,
+				11DF086F20326F470046A28E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,12 +90,16 @@
 			isa = PBXGroup;
 			children = (
 				0347D9EC1F45C9EA0004D700 /* Dependencies.framework */,
-				0343382D1F45CCD200782A2F /* RxCocoa.framework */,
-				0343382F1F45CCD200782A2F /* RxBlocking.framework */,
-				034338311F45CCD200782A2F /* RxCocoaRuntime.framework */,
-				034338331F45CCD200782A2F /* RxSwift.framework */,
+				11DF087520326F470046A28E /* Alamofire.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		11DF086F20326F470046A28E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,39 +162,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0343382D1F45CCD200782A2F /* RxCocoa.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RxCocoa.framework;
-			remoteRef = 0343382C1F45CCD200782A2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0343382F1F45CCD200782A2F /* RxBlocking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RxBlocking.framework;
-			remoteRef = 0343382E1F45CCD200782A2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		034338311F45CCD200782A2F /* RxCocoaRuntime.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RxCocoaRuntime.framework;
-			remoteRef = 034338301F45CCD200782A2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		034338331F45CCD200782A2F /* RxSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RxSwift.framework;
-			remoteRef = 034338321F45CCD200782A2F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		0347D9EC1F45C9EA0004D700 /* Dependencies.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Dependencies.framework;
 			remoteRef = 0347D9EB1F45C9EA0004D700 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11DF087520326F470046A28E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 11DF087420326F470046A28E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -379,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftPackagesWithiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.innouk.SwiftPackagesWithiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftPackagesWithiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.innouk.SwiftPackagesWithiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,22 +8,28 @@
 
 import UIKit
 
-import RxSwift
-import RxCocoa
+import Alamofire
 
 class ViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var progressView: UIProgressView!
 
-    let bag = DisposeBag()
-
+    @IBAction func EmailButton(_ sender: UIButton) {
+        print("email")
+    }
+    
+    @IBAction func GoogleButton(_ sender: UIButton) {
+        print("Google")
+    }
+    
+    @IBAction func FacebookButton(_ sender: UIButton) {
+        print("Facebook")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        slider.rx.value
-            .bind(to: progressView.rx.progress)
-            .disposed(by: bag)
     }
 
     override func didReceiveMemoryWarning() {

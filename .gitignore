@@ -2,3 +2,4 @@
 /.build
 /Packages
 Dependencies.xcodeproj
+*.swp
