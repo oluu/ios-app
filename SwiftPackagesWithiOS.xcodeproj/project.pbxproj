@@ -13,6 +13,7 @@
 		03035A0D1F458E8B00961E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0C1F458E8B00961E46 /* Assets.xcassets */; };
 		03035A101F458E8B00961E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0E1F458E8B00961E46 /* LaunchScreen.storyboard */; };
 		11DF087620326F470046A28E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF087520326F470046A28E /* Alamofire.framework */; };
+		11DF087F2034FD5F0046A28E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = "Alamofire::Alamofire::Product";
 			remoteInfo = Alamofire;
+		};
+		11DF087D2034FD5F0046A28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON::Product";
+			remoteInfo = SwiftyJSON;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DF087F2034FD5F0046A28E /* SwiftyJSON.framework in Frameworks */,
 				11DF087620326F470046A28E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				0347D9EC1F45C9EA0004D700 /* Dependencies.framework */,
+				11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */,
 				11DF087520326F470046A28E /* Alamofire.framework */,
 			);
 			name = Products;
@@ -174,6 +184,13 @@
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
 			remoteRef = 11DF087420326F470046A28E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 11DF087D2034FD5F0046A28E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
