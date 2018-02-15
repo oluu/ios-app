@@ -13,6 +13,7 @@
 		03035A0D1F458E8B00961E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0C1F458E8B00961E46 /* Assets.xcassets */; };
 		03035A101F458E8B00961E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03035A0E1F458E8B00961E46 /* LaunchScreen.storyboard */; };
 		11DF087620326F470046A28E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF087520326F470046A28E /* Alamofire.framework */; };
+		11DF087F2034FD5F0046A28E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +31,17 @@
 			remoteGlobalIDString = "Alamofire::Alamofire::Product";
 			remoteInfo = Alamofire;
 		};
+		11DF087D2034FD5F0046A28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON::Product";
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03035A021F458E8B00961E46 /* SwiftPackagesWithiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackagesWithiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03035A021F458E8B00961E46 /* shinypotato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinypotato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03035A051F458E8B00961E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03035A071F458E8B00961E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03035A0A1F458E8B00961E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DF087F2034FD5F0046A28E /* SwiftyJSON.framework in Frameworks */,
 				11DF087620326F470046A28E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				0347D9E61F45C9EA0004D700 /* Dependencies.xcodeproj */,
-				03035A041F458E8B00961E46 /* SwiftPackagesWithiOS */,
+				03035A041F458E8B00961E46 /* shinypotato */,
 				03035A031F458E8B00961E46 /* Products */,
 				11DF086F20326F470046A28E /* Frameworks */,
 			);
@@ -68,12 +77,12 @@
 		03035A031F458E8B00961E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03035A021F458E8B00961E46 /* SwiftPackagesWithiOS.app */,
+				03035A021F458E8B00961E46 /* shinypotato.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		03035A041F458E8B00961E46 /* SwiftPackagesWithiOS */ = {
+		03035A041F458E8B00961E46 /* shinypotato */ = {
 			isa = PBXGroup;
 			children = (
 				03035A051F458E8B00961E46 /* AppDelegate.swift */,
@@ -83,13 +92,14 @@
 				03035A0E1F458E8B00961E46 /* LaunchScreen.storyboard */,
 				03035A111F458E8B00961E46 /* Info.plist */,
 			);
-			path = SwiftPackagesWithiOS;
+			path = shinypotato;
 			sourceTree = "<group>";
 		};
 		0347D9E71F45C9EA0004D700 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				0347D9EC1F45C9EA0004D700 /* Dependencies.framework */,
+				11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */,
 				11DF087520326F470046A28E /* Alamofire.framework */,
 			);
 			name = Products;
@@ -105,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03035A011F458E8B00961E46 /* SwiftPackagesWithiOS */ = {
+		03035A011F458E8B00961E46 /* shinypotato */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03035A141F458E8B00961E46 /* Build configuration list for PBXNativeTarget "SwiftPackagesWithiOS" */;
+			buildConfigurationList = 03035A141F458E8B00961E46 /* Build configuration list for PBXNativeTarget "shinypotato" */;
 			buildPhases = (
 				030359FE1F458E8B00961E46 /* Sources */,
 				030359FF1F458E8B00961E46 /* Frameworks */,
@@ -117,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPackagesWithiOS;
+			name = shinypotato;
 			productName = SwiftPackagesWithiOS;
-			productReference = 03035A021F458E8B00961E46 /* SwiftPackagesWithiOS.app */;
+			productReference = 03035A021F458E8B00961E46 /* shinypotato.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 030359FD1F458E8B00961E46 /* Build configuration list for PBXProject "SwiftPackagesWithiOS" */;
+			buildConfigurationList = 030359FD1F458E8B00961E46 /* Build configuration list for PBXProject "shinypotato" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +166,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				03035A011F458E8B00961E46 /* SwiftPackagesWithiOS */,
+				03035A011F458E8B00961E46 /* shinypotato */,
 			);
 		};
 /* End PBXProject section */
@@ -174,6 +184,13 @@
 			fileType = wrapper.framework;
 			path = Alamofire.framework;
 			remoteRef = 11DF087420326F470046A28E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11DF087E2034FD5F0046A28E /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 11DF087D2034FD5F0046A28E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -335,10 +352,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwiftPackagesWithiOS/Info.plist;
+				INFOPLIST_FILE = shinypotato/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.innouk.SwiftPackagesWithiOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinypotato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,10 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwiftPackagesWithiOS/Info.plist;
+				INFOPLIST_FILE = shinypotato/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.innouk.SwiftPackagesWithiOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinypotato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		030359FD1F458E8B00961E46 /* Build configuration list for PBXProject "SwiftPackagesWithiOS" */ = {
+		030359FD1F458E8B00961E46 /* Build configuration list for PBXProject "shinypotato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03035A121F458E8B00961E46 /* Debug */,
@@ -372,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03035A141F458E8B00961E46 /* Build configuration list for PBXNativeTarget "SwiftPackagesWithiOS" */ = {
+		03035A141F458E8B00961E46 /* Build configuration list for PBXNativeTarget "shinypotato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03035A151F458E8B00961E46 /* Debug */,
