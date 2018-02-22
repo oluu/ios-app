@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112F2F69203E47CD00E5A0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2F68203E47CD00E5A0CE /* AppDelegate.swift */; };
+		112F2F6B203E47CD00E5A0CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2F6A203E47CD00E5A0CE /* ViewController.swift */; };
+		112F2F6E203E47CD00E5A0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112F2F6C203E47CD00E5A0CE /* Main.storyboard */; };
+		112F2F70203E47CD00E5A0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112F2F6F203E47CD00E5A0CE /* Assets.xcassets */; };
+		112F2F73203E47CD00E5A0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112F2F71203E47CD00E5A0CE /* LaunchScreen.storyboard */; };
+		112F2F7E203E47CD00E5A0CE /* oluuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2F7D203E47CD00E5A0CE /* oluuTests.swift */; };
+		112F2F89203E47CD00E5A0CE /* oluuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112F2F88203E47CD00E5A0CE /* oluuUITests.swift */; };
+		BAA7E3AB4D164C2F4DFE77DF /* Pods_oluu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C0978C47FBCA7DD3C2FFD2 /* Pods_oluu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112F2F7A203E47CD00E5A0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112F2F5D203E47CD00E5A0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112F2F64203E47CD00E5A0CE;
+			remoteInfo = oluu;
+		};
+		112F2F85203E47CD00E5A0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112F2F5D203E47CD00E5A0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112F2F64203E47CD00E5A0CE;
+			remoteInfo = oluu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112F2F65203E47CD00E5A0CE /* oluu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oluu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112F2F68203E47CD00E5A0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		112F2F6A203E47CD00E5A0CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		112F2F6D203E47CD00E5A0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112F2F6F203E47CD00E5A0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112F2F72203E47CD00E5A0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112F2F74203E47CD00E5A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112F2F79203E47CD00E5A0CE /* oluuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oluuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112F2F7D203E47CD00E5A0CE /* oluuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oluuTests.swift; sourceTree = "<group>"; };
+		112F2F7F203E47CD00E5A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112F2F84203E47CD00E5A0CE /* oluuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oluuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112F2F88203E47CD00E5A0CE /* oluuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oluuUITests.swift; sourceTree = "<group>"; };
+		112F2F8A203E47CD00E5A0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222AD921F41E53E12D0D3537 /* Pods-oluu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oluu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oluu/Pods-oluu.debug.xcconfig"; sourceTree = "<group>"; };
+		24FE3260AEF742CB5996C524 /* Pods-oluu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oluu.release.xcconfig"; path = "Pods/Target Support Files/Pods-oluu/Pods-oluu.release.xcconfig"; sourceTree = "<group>"; };
+		B4C0978C47FBCA7DD3C2FFD2 /* Pods_oluu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oluu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112F2F62203E47CD00E5A0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA7E3AB4D164C2F4DFE77DF /* Pods_oluu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F76203E47CD00E5A0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F81203E47CD00E5A0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01957A5BECD2516D82A57C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C0978C47FBCA7DD3C2FFD2 /* Pods_oluu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		112F2F5C203E47CD00E5A0CE = {
+			isa = PBXGroup;
+			children = (
+				112F2F67203E47CD00E5A0CE /* oluu */,
+				112F2F7C203E47CD00E5A0CE /* oluuTests */,
+				112F2F87203E47CD00E5A0CE /* oluuUITests */,
+				112F2F66203E47CD00E5A0CE /* Products */,
+				A26465AC4398B648B6F252EC /* Pods */,
+				01957A5BECD2516D82A57C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		112F2F66203E47CD00E5A0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112F2F65203E47CD00E5A0CE /* oluu.app */,
+				112F2F79203E47CD00E5A0CE /* oluuTests.xctest */,
+				112F2F84203E47CD00E5A0CE /* oluuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112F2F67203E47CD00E5A0CE /* oluu */ = {
+			isa = PBXGroup;
+			children = (
+				112F2F68203E47CD00E5A0CE /* AppDelegate.swift */,
+				112F2F6A203E47CD00E5A0CE /* ViewController.swift */,
+				112F2F6C203E47CD00E5A0CE /* Main.storyboard */,
+				112F2F6F203E47CD00E5A0CE /* Assets.xcassets */,
+				112F2F71203E47CD00E5A0CE /* LaunchScreen.storyboard */,
+				112F2F74203E47CD00E5A0CE /* Info.plist */,
+			);
+			path = oluu;
+			sourceTree = "<group>";
+		};
+		112F2F7C203E47CD00E5A0CE /* oluuTests */ = {
+			isa = PBXGroup;
+			children = (
+				112F2F7D203E47CD00E5A0CE /* oluuTests.swift */,
+				112F2F7F203E47CD00E5A0CE /* Info.plist */,
+			);
+			path = oluuTests;
+			sourceTree = "<group>";
+		};
+		112F2F87203E47CD00E5A0CE /* oluuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112F2F88203E47CD00E5A0CE /* oluuUITests.swift */,
+				112F2F8A203E47CD00E5A0CE /* Info.plist */,
+			);
+			path = oluuUITests;
+			sourceTree = "<group>";
+		};
+		A26465AC4398B648B6F252EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				222AD921F41E53E12D0D3537 /* Pods-oluu.debug.xcconfig */,
+				24FE3260AEF742CB5996C524 /* Pods-oluu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112F2F64203E47CD00E5A0CE /* oluu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112F2F8D203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluu" */;
+			buildPhases = (
+				97AA9A5549A016E2956886D4 /* [CP] Check Pods Manifest.lock */,
+				112F2F61203E47CD00E5A0CE /* Sources */,
+				112F2F62203E47CD00E5A0CE /* Frameworks */,
+				112F2F63203E47CD00E5A0CE /* Resources */,
+				7A0951D8F75AB2508A5F2B30 /* [CP] Embed Pods Frameworks */,
+				27B60338C10023B0627C3416 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oluu;
+			productName = oluu;
+			productReference = 112F2F65203E47CD00E5A0CE /* oluu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112F2F78203E47CD00E5A0CE /* oluuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112F2F90203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluuTests" */;
+			buildPhases = (
+				112F2F75203E47CD00E5A0CE /* Sources */,
+				112F2F76203E47CD00E5A0CE /* Frameworks */,
+				112F2F77203E47CD00E5A0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112F2F7B203E47CD00E5A0CE /* PBXTargetDependency */,
+			);
+			name = oluuTests;
+			productName = oluuTests;
+			productReference = 112F2F79203E47CD00E5A0CE /* oluuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		112F2F83203E47CD00E5A0CE /* oluuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112F2F93203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluuUITests" */;
+			buildPhases = (
+				112F2F80203E47CD00E5A0CE /* Sources */,
+				112F2F81203E47CD00E5A0CE /* Frameworks */,
+				112F2F82203E47CD00E5A0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112F2F86203E47CD00E5A0CE /* PBXTargetDependency */,
+			);
+			name = oluuUITests;
+			productName = oluuUITests;
+			productReference = 112F2F84203E47CD00E5A0CE /* oluuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112F2F5D203E47CD00E5A0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = oluu;
+				TargetAttributes = {
+					112F2F64203E47CD00E5A0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					112F2F78203E47CD00E5A0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 112F2F64203E47CD00E5A0CE;
+					};
+					112F2F83203E47CD00E5A0CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 112F2F64203E47CD00E5A0CE;
+					};
+				};
+			};
+			buildConfigurationList = 112F2F60203E47CD00E5A0CE /* Build configuration list for PBXProject "oluu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112F2F5C203E47CD00E5A0CE;
+			productRefGroup = 112F2F66203E47CD00E5A0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112F2F64203E47CD00E5A0CE /* oluu */,
+				112F2F78203E47CD00E5A0CE /* oluuTests */,
+				112F2F83203E47CD00E5A0CE /* oluuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112F2F63203E47CD00E5A0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112F2F73203E47CD00E5A0CE /* LaunchScreen.storyboard in Resources */,
+				112F2F70203E47CD00E5A0CE /* Assets.xcassets in Resources */,
+				112F2F6E203E47CD00E5A0CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F77203E47CD00E5A0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F82203E47CD00E5A0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B60338C10023B0627C3416 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oluu/Pods-oluu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A0951D8F75AB2508A5F2B30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-oluu/Pods-oluu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oluu/Pods-oluu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AA9A5549A016E2956886D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oluu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112F2F61203E47CD00E5A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112F2F6B203E47CD00E5A0CE /* ViewController.swift in Sources */,
+				112F2F69203E47CD00E5A0CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F75203E47CD00E5A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112F2F7E203E47CD00E5A0CE /* oluuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112F2F80203E47CD00E5A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112F2F89203E47CD00E5A0CE /* oluuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112F2F7B203E47CD00E5A0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112F2F64203E47CD00E5A0CE /* oluu */;
+			targetProxy = 112F2F7A203E47CD00E5A0CE /* PBXContainerItemProxy */;
+		};
+		112F2F86203E47CD00E5A0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112F2F64203E47CD00E5A0CE /* oluu */;
+			targetProxy = 112F2F85203E47CD00E5A0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		112F2F6C203E47CD00E5A0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112F2F6D203E47CD00E5A0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		112F2F71203E47CD00E5A0CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112F2F72203E47CD00E5A0CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112F2F8B203E47CD00E5A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112F2F8C203E47CD00E5A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112F2F8E203E47CD00E5A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222AD921F41E53E12D0D3537 /* Pods-oluu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112F2F8F203E47CD00E5A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FE3260AEF742CB5996C524 /* Pods-oluu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		112F2F91203E47CD00E5A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oluu.app/oluu";
+			};
+			name = Debug;
+		};
+		112F2F92203E47CD00E5A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oluu.app/oluu";
+			};
+			name = Release;
+		};
+		112F2F94203E47CD00E5A0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = oluu;
+			};
+			name = Debug;
+		};
+		112F2F95203E47CD00E5A0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oluuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oluu.oluuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = oluu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112F2F60203E47CD00E5A0CE /* Build configuration list for PBXProject "oluu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112F2F8B203E47CD00E5A0CE /* Debug */,
+				112F2F8C203E47CD00E5A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112F2F8D203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112F2F8E203E47CD00E5A0CE /* Debug */,
+				112F2F8F203E47CD00E5A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112F2F90203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112F2F91203E47CD00E5A0CE /* Debug */,
+				112F2F92203E47CD00E5A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112F2F93203E47CD00E5A0CE /* Build configuration list for PBXNativeTarget "oluuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112F2F94203E47CD00E5A0CE /* Debug */,
+				112F2F95203E47CD00E5A0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112F2F5D203E47CD00E5A0CE /* Project object */;
+}
